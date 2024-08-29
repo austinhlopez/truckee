@@ -48,3 +48,11 @@ To start the Phoenix server, run the following command:
 
 ```bash
 mix phx.server
+
+## Contributing
+We welcome contributions to this Elixir application! If you'd like to contribute, please follow these steps:
+
+1. **Fork the repository** and clone it locally.
+2. **Create a new branch** for your feature or bug fix:
+   ```bash
+   git checkout -b your-feature-branch
