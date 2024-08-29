@@ -2,6 +2,8 @@ import Config
 
 # Configure your database
 config :truckee, Truckee.Repo,
+  adapter: Ecto.Adapers.Postgres,
+  types: Truckee.PostgresTypes,
   username: "postgres",
   password: "postgres",
   hostname: "localhost",

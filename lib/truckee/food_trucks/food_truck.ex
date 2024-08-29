@@ -14,7 +14,7 @@ defmodule Truckee.FoodTruck do
     field :block_lot, :string
     field :block, :string
     field :lot, :string
-    
+
     field :permit, :string
     field :status, :string
     field :food_items, :string
@@ -22,7 +22,7 @@ defmodule Truckee.FoodTruck do
     field :y, :float
     field :latitude, :float
     field :longitude, :float
-    
+
     field :schedule, :string
     field :days_hours, :string
 
@@ -33,7 +33,6 @@ defmodule Truckee.FoodTruck do
     field :received, :string
     field :prior_permit, :boolean
     field :expiration_date, :string
-    field :location, :string
     field :geom, Geo.PostGIS.Geometry
 
     timestamps()
@@ -66,7 +65,6 @@ defmodule Truckee.FoodTruck do
       :received,
       :prior_permit,
       :expiration_date,
-      :location,
       :geom
     ])
     |> validate_required([
@@ -78,6 +76,7 @@ defmodule Truckee.FoodTruck do
       :permit,
       :status
     ])
+
     # required was auto-generated
     # for now. Which details are
     # required depends on

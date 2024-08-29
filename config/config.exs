@@ -11,6 +11,9 @@ config :truckee,
   ecto_repos: [Truckee.Repo],
   generators: [timestamp_type: :utc_datetime]
 
+config :truckee, Truckee.Repo, types: Truckee.PostgresTypes
+config :geo_postgis, :json_library, Jason
+
 # Configures the endpoint
 config :truckee, TruckeeWeb.Endpoint,
   url: [host: "localhost"],
