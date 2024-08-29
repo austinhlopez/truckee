@@ -86,7 +86,7 @@ To start the Phoenix server, run the following command:
 ```bash
 mix phx.server
 
-## Contributing
+## Pushing Code
 We welcome contributions to this Elixir application! If you'd like to contribute, please follow these steps:
 ```
 
@@ -95,5 +95,6 @@ We welcome contributions to this Elixir application! If you'd like to contribute
    ```bash
    git checkout -b your-feature-branch
    ```
-
-# 
+3. Label your branch <timestamp>/<category>/<description>
+4. Run 'mix coveralls' and ensure that your pull request is increasing the test coverage of the codebase overall.
+5. Expect a request for changes, an approval, or a request to discuss in person witihin 36 hours.
