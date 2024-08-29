@@ -15,7 +15,8 @@ Before you begin, ensure you have the following installed on your system:
 
 - [Elixir](https://elixir-lang.org/install.html)
 - [Erlang/OTP](https://www.erlang.org/downloads)
-- [PostgreSQL](https://www.postgresql.org/download/) (or any other preferred database)
+- [PostgreSQL](https://www.postgresql.org/download/)
+- [PostGIS](https://postgis.net/)
 
 ## Initial Setup
 
@@ -47,3 +48,11 @@ To start the Phoenix server, run the following command:
 
 ```bash
 mix phx.server
+
+## Contributing
+We welcome contributions to this Elixir application! If you'd like to contribute, please follow these steps:
+
+1. **Fork the repository** and clone it locally.
+2. **Create a new branch** for your feature or bug fix:
+   ```bash
+   git checkout -b your-feature-branch

@@ -35,3 +35,6 @@ truckee-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# artifacts
+**/#*#
+**~
