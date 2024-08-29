@@ -11,7 +11,7 @@ Restaurants have a famously high failure rate compared to other kinds of busines
 starting a food truck want to bring their passion for cooking to people. On the way they're facing a lot of obstacles 
 to achieving that dream--permitting, health inspections, sourcing food, presenting menu options, finding a location.
 
-Everyone can find their closest, favorite food truck. Early-stage food trucks face tough competition. They need to
+Everyone can find their closest, favorite food truck. Early-stage food trucks face tough competition. They need to find
 special ways to attract customers.
 
 Truckee is here to give a leg up on newcomers. We use data-driven analytics in order to identify the ideal site
