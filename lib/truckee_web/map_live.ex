@@ -14,8 +14,8 @@ defmodule TruckeeWeb.MapLive do
     socket =
       assign(socket,
         # Example coordinates
-        map_center: [37.7749, -122.4194],
-        map_zoom: 13
+        map_center: [37.70, -122.38],
+        map_zoom: 12.8
       )
       |> push_event("init-map", %{geojson: geojson})
 
@@ -30,7 +30,7 @@ defmodule TruckeeWeb.MapLive do
       </div>
       <div style="width: 100%; height: 100%; position: absolute">
         <div
-          style="width: 1000px; height: 1000px;"
+          style="width: 1400px; height: 1000px;"
           id="map"
           phx-hook="MapHook"
           data-center={@map_center |> Jason.encode!()}
