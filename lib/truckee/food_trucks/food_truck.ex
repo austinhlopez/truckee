@@ -2,6 +2,8 @@ defmodule Truckee.FoodTruck do
   use Ecto.Schema
   import Ecto.Changeset
 
+  @moduledoc "Food Truck schema."
+
   schema "food_trucks" do
     field :location_id, :integer
     field :applicant, :string
