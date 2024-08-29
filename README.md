@@ -28,7 +28,7 @@ Truckee's development team wants to prioritize a unified meetingplace to make pr
 
 Please register a meeting time on our calendly and we'll get you plugged in:
 
-** Zoom Link Here **
+*Zoom Link Here*
 
 Once we've gotten in touch you'll be ready to start making commits.
 
@@ -36,11 +36,15 @@ Once we've gotten in touch you'll be ready to start making commits.
 
 If you'd like to make a contribution to any of these documents, get in touch.
 
-** Product Roadmap Here **
-** Decision Record Here **
-** Coding Guide Here **
-** Style Guide Here **
-** Bug List Here **
+*Product Roadmap Here*
+
+*Decision Record Here*
+
+*Coding Guide Here*
+
+*Style Guide Here*
+
+*Bug List Here*
 
 # Setting Up Your Development Environment
 
