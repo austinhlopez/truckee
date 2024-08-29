@@ -1,15 +1,52 @@
 # truckee
-Find your Favorite Food Truck!
+There's nothing better than a california burrito, bao or pizza from your favorite food truck.
 
-There's nothing better than a california burrito on a cool night.
+I'm a big fan of Tacos Mi Rancho out in Oakland, but it might take a BART trip.
 
 Truckee is a San Fran techie's dream: tasty and data-driven.
 
-My personal favorite is Tacos Mi Rancho out in Oakland, but if
+# Why Truckee? Why Now?
 
-you're not trying to take the BART we're here to help.
+Restaurants have a famously high failure rate compared to other kinds of businesses. Most people with a dream of
+starting a food truck want to bring their passion for cooking to people. On the way they're facing a lot of obstacles 
+to achieving that dream--permitting, health inspections, sourcing food, presenting menu options, finding a location.
 
-## Prerequisites
+Everyone can find their closest, favorite food truck. Early-stage food trucks face tough competition. They need to
+special ways to attract customers.
+
+Truckee is here to give a leg up on newcomers. We use data-driven analytics in order to identify the ideal site
+for your food truck. You can opt to build a niche--starting a new food truck in a new culinary subcategory in
+a popular spot or venturing early in an up-and-coming territory.
+
+Then once you've chosen a site we manage the permitting lifecycle for you, connecting you with a cohort of up-and-coming food trucks around town for a foodie-focused coupon circuit.
+
+Finally, and most importantly, we get you in with the events managers for venues and outdoor shows downtown for cheap.
+
+# Contributing
+
+Truckee's development team wants to prioritize a unified meetingplace to make product and technical decisions.
+
+Please register a meeting time on our calendly and we'll get you plugged in:
+
+*Zoom Link Here*
+
+Once we've gotten in touch you'll be ready to start making commits.
+
+# Read first: Roadmap, Decision Record, Style Guide, Bug List
+
+If you'd like to make a contribution to any of these documents, get in touch.
+
+*Product Roadmap Here*
+
+*Decision Record Here*
+
+*Coding Guide Here*
+
+*Style Guide Here*
+
+*Bug List Here*
+
+# Setting Up Your Development Environment
 
 Before you begin, ensure you have the following installed on your system:
 
@@ -51,8 +88,12 @@ mix phx.server
 
 ## Contributing
 We welcome contributions to this Elixir application! If you'd like to contribute, please follow these steps:
+```
 
 1. **Fork the repository** and clone it locally.
 2. **Create a new branch** for your feature or bug fix:
    ```bash
    git checkout -b your-feature-branch
+   ```
+
+# 
