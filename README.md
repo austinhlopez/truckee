@@ -70,13 +70,14 @@ Before you begin, ensure you have the following installed on your system:
     mix deps.get
     ```
 
-3. **Set up the database**:
+3. **Set up the database and populate**:
 
     Make sure your database is configured correctly in `config/dev.exs`.
 
     ```bash
     mix ecto.create
     mix ecto.migrate
+    mix run priv/repo/seeds.exs
     ```
 
 ## Running the Application
