@@ -3,3 +3,4 @@ mix compile --all-warnings --warnings-as-errors
 mix format
 mix credo
 mix coveralls
+mix test
