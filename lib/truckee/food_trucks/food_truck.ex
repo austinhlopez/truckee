@@ -76,6 +76,7 @@ defmodule Truckee.FoodTruck do
       :cnn,
       :address,
       :permit,
+      :geom,
       :status
     ])
 
