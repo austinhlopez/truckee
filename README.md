@@ -84,7 +84,6 @@ Before you begin, ensure you have the following installed on your system:
 
 To start the Phoenix server, run the following command:
 
-    bash
     mix phx.server
 
 The app's homepage is available at ```localhost:4000```
