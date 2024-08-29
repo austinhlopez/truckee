@@ -15,7 +15,8 @@ Before you begin, ensure you have the following installed on your system:
 
 - [Elixir](https://elixir-lang.org/install.html)
 - [Erlang/OTP](https://www.erlang.org/downloads)
-- [PostgreSQL](https://www.postgresql.org/download/) (or any other preferred database)
+- [PostgreSQL](https://www.postgresql.org/download/)
+- [PostGIS](https://postgis.net/)
 
 ## Initial Setup
 
