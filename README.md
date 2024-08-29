@@ -1,9 +1,9 @@
 # truckee
 There's nothing better than a california burrito, bao or pizza from your favorite food truck.
 
-I'm a big fan of Tacos Mi Rancho out in Oakland, but it might take a BART trip.
+Truckee is a Bay Area techie's dream: tasty and data-driven.
 
-Truckee is a San Fran techie's dream: tasty and data-driven.
+I'm a big fan of Tacos Mi Rancho out in Oakland, if you're up for the BART trip.
 
 # Why Truckee? Why Now?
 
@@ -96,6 +96,6 @@ We welcome contributions to this Elixir application! If you'd like to contribute
    ```bash
    git checkout -b your-feature-branch
    ```
-3. Label your branch <timestamp>/<category>/<description>
+3. Label your branch "timestamp/category/description"
 4. Run 'mix coveralls' and ensure that your pull request is increasing the test coverage of the codebase overall.
 5. Expect a request for changes, an approval, or a request to discuss in person witihin 36 hours.
