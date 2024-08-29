@@ -17,7 +17,7 @@ defmodule TruckeeWeb.Router do
   scope "/", TruckeeWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", MapLive, :index
   end
 
   # Other scopes may use custom stacks.
