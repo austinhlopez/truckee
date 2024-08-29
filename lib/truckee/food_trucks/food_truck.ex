@@ -1,17 +1,20 @@
-defmodule YourApp.FoodTruck do
+defmodule Truckee.FoodTruck do
   use Ecto.Schema
   import Ecto.Changeset
 
   schema "food_trucks" do
-    field :locationid, :integer
+    field :location_id, :integer
     field :applicant, :string
     field :facility_type, :string
+
+    # centerline network number
     field :cnn, :integer
     field :location_description, :string
     field :address, :string
-    field :blocklot, :string
+    field :block_lot, :string
     field :block, :string
     field :lot, :string
+    
     field :permit, :string
     field :status, :string
     field :food_items, :string
@@ -19,8 +22,12 @@ defmodule YourApp.FoodTruck do
     field :y, :float
     field :latitude, :float
     field :longitude, :float
+    
     field :schedule, :string
-    field :dayshours, :string
+    field :days_hours, :string
+
+    # legal and permit statuses
+    # notice of intent
     field :noi_sent, :boolean
     field :approved, :string
     field :received, :string
@@ -36,13 +43,13 @@ defmodule YourApp.FoodTruck do
   def changeset(food_truck, attrs) do
     food_truck
     |> cast(attrs, [
-      :locationid,
+      :location_id,
       :applicant,
       :facility_type,
       :cnn,
       :location_description,
       :address,
-      :blocklot,
+      :block_lot,
       :block,
       :lot,
       :permit,
@@ -53,7 +60,7 @@ defmodule YourApp.FoodTruck do
       :latitude,
       :longitude,
       :schedule,
-      :dayshours,
+      :days_hours,
       :noi_sent,
       :approved,
       :received,
@@ -63,7 +70,7 @@ defmodule YourApp.FoodTruck do
       :geom
     ])
     |> validate_required([
-      :locationid,
+      :location_id,
       :applicant,
       :facility_type,
       :cnn,
@@ -71,5 +78,9 @@ defmodule YourApp.FoodTruck do
       :permit,
       :status
     ])
+    # required was auto-generated
+    # for now. Which details are
+    # required depends on
+    # product decisions
   end
 end

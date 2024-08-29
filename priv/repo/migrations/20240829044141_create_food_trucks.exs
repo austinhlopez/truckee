@@ -9,7 +9,7 @@ defmodule Truckee.Repo.Migrations.CreateFoodTrucks do
       add :cnn, :integer
       add :location_description, :text
       add :address, :string
-      add :blocklot, :string
+      add :block_lot, :string
       add :block, :string
       add :lot, :string
       add :permit, :string
@@ -20,7 +20,7 @@ defmodule Truckee.Repo.Migrations.CreateFoodTrucks do
       add :latitude, :float
       add :longitude, :float
       add :schedule, :string
-      add :dayshours, :string
+      add :days_hours, :string
       add :noi_sent, :string
       add :approved, :string
       add :received, :string
