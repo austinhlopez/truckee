@@ -84,12 +84,13 @@ Before you begin, ensure you have the following installed on your system:
 
 To start the Phoenix server, run the following command:
 
-```bash
-mix phx.server
+    bash
+    mix phx.server
+
+The app's homepage is available at ```localhost:4000```
 
 ## Pushing Code
 We welcome contributions to this Elixir application! If you'd like to contribute, please follow these steps:
-```
 
 1. **Fork the repository** and clone it locally.
 2. **Create a new branch** for your feature or bug fix:
