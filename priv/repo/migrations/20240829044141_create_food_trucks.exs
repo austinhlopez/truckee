@@ -21,12 +21,11 @@ defmodule Truckee.Repo.Migrations.CreateFoodTrucks do
       add :longitude, :float
       add :schedule, :string
       add :days_hours, :string
-      add :noi_sent, :string
+      add :noi_sent, :boolean
       add :approved, :string
       add :received, :string
-      add :prior_permit, :integer
+      add :prior_permit, :boolean
       add :expiration_date, :string
-      add :location, :string
 
       add :geom, :geometry
 
